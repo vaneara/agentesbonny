@@ -168,10 +168,10 @@ Do not combine them into a single file.
 ## Capturas de pantalla
 
 ### Landing Page 1 (Cursor)
-![Landing 1](./screenshots/lan1hero.png)
+![Landing 1](./screenshots/lan1hero.png ./screenshots/lan1about.png ./screenshots/lan1testimonios.png ./screenshots/lan1footer.png)
 
-### Landing Page 2 (Devin)
-![Landing 2](./screenshots/lan2hero.png)
+### Landing Page 2 (Cascade)
+![Landing 2](./screenshots/lan2hero.png ./screenshots/lan2about.png ./screenshots/lan2testimonios.png ./screenshots/lan2footer.png)
 
 ---
 
