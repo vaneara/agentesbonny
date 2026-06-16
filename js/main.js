@@ -20,7 +20,7 @@
             reset() {
                 this.x = Math.random() * canvas.width;
                 this.y = Math.random() * canvas.height;
-                this.size = Math.random() * 2 + 0.5;
+                this.size = Math.random() * 1 + 0.5;
                 this.speedX = (Math.random() - 0.5) * 0.3;
                 this.speedY = (Math.random() - 0.5) * 0.3;
                 this.opacity = Math.random() * 0.8 + 0.2;
@@ -56,7 +56,7 @@
         }
 
         const stars = [];
-        const starCount = 150;
+        const starCount = 100;
 
         for (let i = 0; i < starCount; i++) {
             stars.push(new Star());
