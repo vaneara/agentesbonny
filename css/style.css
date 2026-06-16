@@ -1,7 +1,7 @@
         :root {
-            --midnight-blue: #010317;
-            --rich-navy: #0c203e;
-            --dark-botanical-green: #0f2a51;
+            --midnight-blue: #000108;
+            --rich-navy: #071223;
+            --dark-botanical-green: #06101f;
             --antique-gold: #d4af37;
             --soft-ivory: #faf8f5;
             --muted-lavender: #7e57c2;
@@ -82,6 +82,7 @@
             height: 5rem;
             color: var(--antique-gold);
             opacity: 0.8;
+            stroke-width: 1.0;
             filter: drop-shadow(0 0 30px rgba(212, 175, 55, 0.5));
             animation: float 6s ease-in-out infinite;
             }
@@ -92,6 +93,7 @@
         }
 
         .hero h1 {
+            font-family: "Cormorant Garamond", serif;
             font-size: clamp(2.5rem, 6vw, 5rem);
             line-height: 1.1;
             margin-bottom: 1.5rem;
@@ -106,6 +108,7 @@
         }
 
         .hero .subtitle {
+            font-family: "Montserrat", sans-serif;
             font-size: clamp(1rem, 2vw, 1.3rem);
             color: rgba(250, 248, 245, 0.85);
             margin-bottom: 4rem;
@@ -114,6 +117,33 @@
             margin-right: auto;
             font-weight: 300;
             letter-spacing: 0.1em;
+        }
+
+        /* Divider */
+        .divider{
+            color:#D4AF37;
+            font-size:1.5rem;
+            margin:20px 0;
+            text-align:center;
+            position:relative;
+        }
+
+        .divider::before,
+        .divider::after{
+            content:"";
+            width:60px;
+            height:1px;
+            background:#D4AF37;
+            position:absolute;
+            top:50%;
+        }
+
+        .divider::before{
+            left:calc(50% - 90px);
+        }
+
+        .divider::after{
+            right:calc(50% - 90px);
         }
 
         /* Cards Grid */
@@ -327,6 +357,8 @@
                 font-size: 0.8rem;
             }
         }
+
+
 
         /* Loading Animation */
         .fade-in {
